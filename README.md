@@ -1,3 +1,37 @@
+React.createElement(type,props,children)
+React.createElement(h1,null,"hello world")
+
+JSX helps to generate above code with below syntax.
+const element = = <h1>Hello world</h1>;
+
+Lifecycle of a component:
+
+
+Initialize
+
+Mounting - componentWillMount()
+	   render()
+	   componentDidMount()
+
+Updation - componentWillReceiveProps() called when props receive something
+	   setState()
+	   shouldComponentUpdate()
+	   componentWillUpdate()
+	   componentDidUpdate()
+
+Unmounting - componentWillUnmount()
+	     
+React hooks:
+
+Only call hooks at the top level
+Call hooks only from react functional components or other hooks
+
+useState()
+useEffect()
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
